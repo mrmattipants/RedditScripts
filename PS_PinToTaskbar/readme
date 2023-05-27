@@ -1,1 +1,12 @@
+PS-PinToTaskbar.ps1 is based on the PinToTaskBar1903.ps1 Script, authored by PinTo10.
 
+PinTo10 - PinToTaskBar1903.ps1 Script Author Blog:
+https://pinto10blog.wordpress.com/2016/09/10/pinto10/
+
+Dropbox - PinToTaskBar1903.ps1 Script (Download):
+https://www.dropbox.com/speedbump/q7ttcj69ljont06/?content_link=https%3A%2F%2Fuce7e01124c5be74aee254db6a59.dl.dropboxusercontent.com%2Fcd%2F0%2Fget%2FB831S6h15MePNV7MMtAEYygZBrQ2SaUVfe68E66jElHVDIbIr_6NoC9wemcJbUgLja-sRneSALhtHTc87OE8E4v4Wzrgmc4liWA6JuVVSAP4NOIf4rBWRq1cuVBu9dtr7-zy5OsSgcD7arTBUggL6Ps4HMp2jgmXGHx07Gs82fkD6g%2Ffile%3Fdl%3D1%23&hmac=AQO2bU68w5eyX76gwRDyifGX4BH8KKudS34uJh3WZVBMLQ
+
+The PinToTaskbar1903.ps1 Script is built on top of the "Masquerade-PEB.ps1" Script, authoried by FuzzySecurity. 
+
+FuzzySecurity Github - Masquerade-PEB.ps1 Script:
+https://github.com/FuzzySecurity/PowerShell-Suite/blob/master/Masquerade-PEB.ps1
