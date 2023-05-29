@@ -404,5 +404,3 @@ if ((Get-ChildItem $TargetFile).Extension -ne ".lnk"){
 } else {
 	(New-Object -ComObject shell.application).Namespace("$Directory\").parsename("$FileNameWithExt").invokeverb("$PinUnpin")
 }
-
-Masquerade-PEB -BinPath C:\Users\HBNSTech\Desktop\SetUserFTA.exe PIN
