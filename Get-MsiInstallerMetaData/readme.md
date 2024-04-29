@@ -1,0 +1,1 @@
+Get-MsiInstallerMetaData.ps1
