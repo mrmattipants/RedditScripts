@@ -1,4 +1,4 @@
-<h1>LogOffOnIdle.ps1</h1>h1><br />
+<h1>LogOffOnIdle.ps1</h1><br />
 <br />
 
 <center><img src="https://i.imgur.com/oIhHVER.png"></center><br />
