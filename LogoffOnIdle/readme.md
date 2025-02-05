@@ -11,21 +11,22 @@ The Script will create "Application" Event Logs, when a User is Logged-Out<br />
 
 <center><img src="https://i.imgur.com/oIhHVER.png"></center><br />
 
-<b>Under the "User Configuration > Policies > Windows Setting" Select the  "Logon Script" Option</b><br />
+1.) Under the "User Configuration > Policies > Windows Setting" Select the  "Logon Script" Option.<br />
 <center><img src="https://i.imgur.com/AEKlZOk.png"></center><br />
 
-<b>Click on the "Show Files" Button, at the bottom of the "Logon Properties" Window</b><br />
+2.) Click on the "Show Files" Button, at the bottom of the "Logon Properties" Window<br />
 <center><img src="https://i.imgur.com/WYXjkqN.png"></center><br />
 
-<b>Copy Both the "LogoffOnIdle.ps1" and "RunHidde.exe" Files to the User Logon Scripts Folder</b><br />
+3.) Copy Both the "LogoffOnIdle.ps1" and "RunHidde.exe" Files to the User Logon Scripts Folder<br />
 <center><img src="https://i.imgur.com/FLsmJuQ.png"></center><br />
 
-<b>Return to the "Logon Properties" and Click on the "Add" Button</b><br />
+4.) Return to the "Logon Properties" and Click on the "Add" Button<br />
 <center><img src="https://i.imgur.com/wwhWjdQ.png"></center><br />
 
-<b>When the "Edit Script" Dialog Opens, Type "RunHidden.exe" into the "Script Name" Field</b><br />
-<b>Then Type "LogoffOnIdle.ps1" into the "Script Parameters" Text Field</b><br />
+5.) When the "Edit Script" Dialog Opens, Type "RunHidden.exe" into the "Script Name" Field<br />
+Then Type "LogoffOnIdle.ps1" into the "Script Parameters" Text Field<br />
 <center><img src="https://i.imgur.com/N5303F5.png"></center><br />
-<b>If you plan on Linking the GPO to an OU that contains Computers/Servers,</b><br />
-<b>You may want to include a Merge Loopback Policy</b><br />
+
+NOTE: If you plan on Linking the GPO to an OU that contains Computers/Servers,<br />
+You may also  want to include a Merge Loopback Policy<br />
 <center><img src="https://i.imgur.com/xRH2PNp.png"></center><br />
