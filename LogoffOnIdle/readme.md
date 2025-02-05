@@ -1,18 +1,18 @@
 LogOffOnIdle.ps1<br />
 <br />
 
-<img src="https://i.imgur.com/oIhHVER.png"><br />
+<center><img src="https://i.imgur.com/oIhHVER.png"></center><br />
 
-<img src="https://i.imgur.com/AEKlZOk.png"><br />
+<center><img src="https://i.imgur.com/AEKlZOk.png"></center><br />
 
-<img src="https://i.imgur.com/WYXjkqN.png"><br />
+<center><img src="https://i.imgur.com/WYXjkqN.png"></center><br />
 
-<img src="https://i.imgur.com/FLsmJuQ.png"><br />
+<center><img src="https://i.imgur.com/FLsmJuQ.png"></center><br />
 
-<img src="https://i.imgur.com/wwhWjdQ.png"><br />
+<center><img src="https://i.imgur.com/wwhWjdQ.png"></center><br />
 
-<img src="https://i.imgur.com/N5303F5.png"><br />
+<center><img src="https://i.imgur.com/N5303F5.png"></center><br />
 
-<img src="https://i.imgur.com/xRH2PNp.png"><br />
+<center><img src="https://i.imgur.com/xRH2PNp.png"></center><br />
 
-<img src="https://i.imgur.com/uZlZYft.png"><br />
+<center><img src="https://i.imgur.com/uZlZYft.png"></center><br />
