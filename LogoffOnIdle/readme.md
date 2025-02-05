@@ -1,7 +1,8 @@
 <h1>LogOffOnIdle.ps1</h1><br />
 <br />
 
-<b>The Script will create "Application" Event Logs, when a User is Logged-Out</b><br />
+The Script will create "Application" Event Logs, when a User is Logged-Out<br />
+(containing the Date, TIme and Idle Time)<br />
 <center><img src="https://i.imgur.com/uZlZYft.png"></center><br />
 
 <b>GPO Configuration</b>:<br />
