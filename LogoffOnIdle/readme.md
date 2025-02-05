@@ -1,10 +1,13 @@
 <h1>LogOffOnIdle.ps1</h1><br />
 <br />
 
+<b>The Script will create "Application" Event Logs, when a User is Logged-Out</b><br />
+<center><img src="https://i.imgur.com/uZlZYft.png"></center><br />
+
 <b>GPO Configuration</b>:<br />
 <center><img src="https://i.imgur.com/oIhHVER.png"></center><br />
 
-<b>Select "User Configuration > Logon Script"</b><br />
+<b>Select "User Configuration > Policies > Windows Setting > Logon Script"</b><br />
 <center><img src="https://i.imgur.com/AEKlZOk.png"></center><br />
 
 <b>Click on the "Show Files" Button, at the bottom of the "Logon Properties" Window</b><br />
