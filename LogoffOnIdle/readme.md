@@ -1,11 +1,14 @@
 <h1>LogOffOnIdle.ps1</h1><br />
 <br />
 
+<h2>EVENT LOGS</h2>
+
 The Script will create "Application" Event Logs, when a User is Logged-Out<br />
 (containing the Date, TIme and Idle Time)<br />
 <center><img src="https://i.imgur.com/uZlZYft.png"></center><br />
 
-<b>GPO Configuration</b>:<br />
+<h2>GPO CONFIGURATION</h2>
+
 <center><img src="https://i.imgur.com/oIhHVER.png"></center><br />
 
 <b>Select "User Configuration > Policies > Windows Setting > Logon Script"</b><br />
