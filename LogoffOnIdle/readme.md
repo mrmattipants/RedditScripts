@@ -11,7 +11,7 @@ The Script will create "Application" Event Logs, when a User is Logged-Out<br />
 
 <center><img src="https://i.imgur.com/oIhHVER.png"></center><br />
 
-<b>Select "User Configuration > Policies > Windows Setting > Logon Script"</b><br />
+<b>Under the "User Configuration > Policies > Windows Setting" Select the  "Logon Script" Option</b><br />
 <center><img src="https://i.imgur.com/AEKlZOk.png"></center><br />
 
 <b>Click on the "Show Files" Button, at the bottom of the "Logon Properties" Window</b><br />
