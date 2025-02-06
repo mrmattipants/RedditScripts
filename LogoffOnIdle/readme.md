@@ -15,7 +15,7 @@ The Script will Generate "<b>Application</b>" Event Logs, when a User is Logged-
 <center><img src="https://i.imgur.com/AEKlZOk.png"></center><br />
 
 <b>2.)</b> Click on the "<b>Show Files</b>" Button, at the bottom of the "<b>Logon Properties</b>" Window<br />
-<center><img src="https://i.imgur.com/WYXjkqN.png"></center><br />
+<center><img src="https://i.imgur.com/XCE6yOo.png"></center><br />
 
 <b>3.)</b> Copy Both the "<b>LogoffOnIdle.ps1</b>" and "<b>RunHidden.exe</b>" Files to the User Logon Scripts Folder<br />
 <center><img src="https://i.imgur.com/FLsmJuQ.png"></center><br />
