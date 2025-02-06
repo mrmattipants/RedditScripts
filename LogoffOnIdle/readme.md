@@ -21,7 +21,7 @@ The Script will Generate "<b>Application</b>" Event Logs, when a User is Logged-
 <center><img src="https://i.imgur.com/FLsmJuQ.png"></center><br />
 
 <b>4.)</b> Return to the "<b>Logon Properties</b>" and Click on the "<b>Add</b>" Button<br />
-<center><img src="https://i.imgur.com/wwhWjdQ.png"></center><br />
+<center><img src="https://i.imgur.com/WokUZ8V.png"></center><br />
 
 <b>5.)</b> When the "<b>Edit Script</b>" Dialog Opens, Type "<b>RunHidden.exe</b>" into the "<b>Script Name</b>" Field<br />
 Then Type "<b>LogoffOnIdle.ps1</b>" into the "<b>Script Parameters</b>" Text Field<br />
