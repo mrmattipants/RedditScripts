@@ -2,8 +2,8 @@
 
 <b><ins>Importing Function - Method 1</ins></b>:<br />
 
-CD "C:\Path\To\Directory"
-. .\Get-MSIMetaData.ps1
+<code>CD "C:\Path\To\Directory"</code><br />
+<code>. .\Get-MSIMetaData.ps1</code>
 
 <b><ins>Importing Function - Method 2</ins></b>:<br />
 
