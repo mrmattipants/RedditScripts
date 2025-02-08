@@ -1,4 +1,4 @@
-<b>**Get-MsiInstallerMetaData.ps1**</b>:<br />
+<b><ins>Gett-MsiInstallerMetaData.ps1</ins></b>:<br />
 
 <b><u>Importing Function - Method 1</u></b>:<br />
 
