@@ -43,3 +43,9 @@ To get around the aforementioned obstacles, I wrote this Script, which contains 
 <b><ins>Example</ins></b>:<br />
 
 <img src="https://i.imgur.com/wgRNOjM.png"><br />
+
+<b><ins>Opening the MSI Database & Viewing the Tables/Properties</ins></b>:<br />
+
+<img src="https://i.imgur.com/TWphmc3.png"><br />
+
+<img src="https://i.imgur.com/1JKe0rz.png"><br />
