@@ -13,17 +13,17 @@
 
 <code>$ProgramName = "Esko ArtiosCAD Viewer"</code><br /><br />
 <code>$MsiFileInfo = Get-ChildItem -Path "C:\Windows\Installer\\*.msi" | Get-MsiFileMetaData | Where-Object {$_.Authors -like "\*$($ProgramName)\*" -or $_.comments -like "\*$($ProgramName)\*" -or $_.participants -like "\*$($ProgramName)\*" -or $_.subject -like "\*$($ProgramName)\*" -or $_.Title -like "\*$($ProgramName)\*"}</code><br /><br />
-<code>$MsiFileInfo</code><br /><br />
+<code>$MsiFileInfo</code><br />
 
 <b><ins>Get-MsiProductName Function - Usage</ins></b>:<br />
 
 <code>$ProductName = Get-Item -Path $MsiFileInfo.Path | Get-MsiProductName</code><br /><br />
-<code>Write-host "Product Name: $($ProductName)"</code><br /><br />
+<code>Write-host "Product Name: $($ProductName)"</code><br />
 
 <b><ins>Get-MsiProductVersion Function - Usage</ins></b>:<br />
 
 <code>$ProductVersion = Get-Item -Path $MsiFileInfo.Path | Get-MsiProductVersion</code><br /><br />
-<code>Write-host "Product Version: $($ProductVersion)"</code><br /><br />
+<code>Write-host "Product Version: $($ProductVersion)"</code><br />
 
 <b><ins>Example</ins></b>:<br />
 
