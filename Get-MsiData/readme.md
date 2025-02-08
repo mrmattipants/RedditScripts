@@ -47,7 +47,9 @@ To get around the aforementioned obstacles, I wrote this Script, which contains 
 <b><ins>Opening the MSI Database & Viewing the Tables/Properties</ins></b>:<br />
 
 To Open/View the MSI Database, you can Download & Install ORCA, via the following Link.<br />
-<a href="https://www.technipages.com/downloads/OrcaMSI.zip">https://www.technipages.com/downloads/OrcaMSI.zip</a>
+<a href="https://www.technipages.com/downloads/OrcaMSI.zip">https://www.technipages.com/downloads/OrcaMSI.zip</a><br />
+
+The "ProductName" and "ProductVersion" Properties can be found under the "Property" Table.<br />
 
 <img src="https://i.imgur.com/TWphmc3.png"><br />
 
