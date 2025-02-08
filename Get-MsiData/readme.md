@@ -49,8 +49,12 @@ To get around the aforementioned obstacles, I wrote this Script, which contains 
 To Open/View the MSI Database, you can Download & Install ORCA, via the following Link.<br />
 <a href="https://www.technipages.com/downloads/OrcaMSI.zip">https://www.technipages.com/downloads/OrcaMSI.zip</a><br />
 
-The "ProductName" and "ProductVersion" Properties can be found under the "Property" Table.<br />
+The "**ProductName**" and "**ProductVersion**" Properties can be found under the "**Property**" Table.<br />
 
+**NOTE**: You can only have one instance of the MSI Database Open, at one time. If you try to run the "Get-MsiProductName" and/or "Get-MsiProductVersion" PowerShell Functions, while the MSI Database is Open in Orca, PowerShell will display an Error, until you Close the Orca Instance.<br /><br />
+
+**Orca > "Property" Table > "ProductName" Property:**<br />
 <img src="https://i.imgur.com/TWphmc3.png"><br />
 
+**Orca > "Property" Table > "ProductVersion" Property:**<br />
 <img src="https://i.imgur.com/1JKe0rz.png"><br />
