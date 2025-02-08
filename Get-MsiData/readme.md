@@ -27,7 +27,7 @@ To get around the aforementioned obstacles, I wrote this Script, which contains 
 <b><ins>Using the "Get-MsiFileMetaData" Function</ins></b>:<br />
 
 <code>$ProgramName = "Esko ArtiosCAD Viewer"</code><br /><br />
-<code>$MsiFileInfo = Get-ChildItem -Path "C:\Windows\Installer\\*.msi" | Get-MsiFileMetaData | Where-Object {$_.Authors -like "\*$($ProgramName)\*" -or $_.comments -like "\*$($ProgramName)\*" -or $_.participants -like "\*$($ProgramName)\*" -or $_.subject -like "\*$($ProgramName)\*" -or $_.Title -like "\*$($ProgramName)\*"}</code><br /><br />
+<code>$MsiFileInfo = Get-ChildItem -Path "C:\Windows\Installer\\*.msi" | Get-MsiFileMetaData | Where-Object {$\_.Authors -like "\*$($ProgramName)\*" -or $\_.comments -like "\*$($ProgramName)\*" -or $\_.participants -like "\*$($ProgramName)\*" -or $\_.subject -like "\*$($ProgramName)\*" -or $\_.Title -like "\*$($ProgramName)\*"}</code><br /><br />
 <code>$MsiFileInfo</code><br />
 
 <b><ins>Using the "Get-MsiProductName" Function</ins></b>:<br />
