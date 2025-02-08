@@ -2,7 +2,7 @@
 
 After Installing a Program via and MSI or EXE (that Extracts an MSI Package), a Copy of that MSI File will be stored in a Hidden Directory (C:\Windows\Installer), for later. When the associated Program is Uninstalled later, it will be this MSI File Copy, that will be used to perform the Uninstallation & Cleanup.<br />
 
-As seen in the Screenshot below, this MSI File Copy will typiclly have a Generic Name, consisting of Hexidecimal Characters, which can make it difficult to find, unless you have certain columns visible (i.e. Authors, Comments, Participants, Subject, Title, etc.) in the Explorer Window.<br />
+As seen in the Screenshot below, this MSI File Copy will typiclly have a Generic Name, consisting of Hexidecimal Characters, which can make it difficult to find, unless you have certain columns visible (i.e. Authors, Comments, Participants, Subject, Title, etc.) in the Explorer Window.<br /><br />
 
 <img src="https://i.imgur.com/StGujBB.png">
 
