@@ -42,9 +42,12 @@ To get around the aforementioned obstacles, I wrote this Script, which contains 
 
 <b><ins>Example</ins></b>:<br />
 
-<img src="https://i.imgur.com/wgRNOjM.png"><br />
+<img src="https://i.imgur.com/wgRNOjM.png"><br /><br />
 
 <b><ins>Opening the MSI Database & Viewing the Tables/Properties</ins></b>:<br />
+
+To Open/View the MSI Database, you can Download & Install ORCA, via the following Link.<br />
+<a href="https://www.technipages.com/downloads/OrcaMSI.zip">https://www.technipages.com/downloads/OrcaMSI.zip</a>
 
 <img src="https://i.imgur.com/TWphmc3.png"><br />
 
