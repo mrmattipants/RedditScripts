@@ -1,6 +1,8 @@
 <h1>Get-MsiData.ps1</h1><br />
 
-After Installing a Program via MSI or EXE (that Extracts an MSI Package), a Copy of that MSI File will be stored in a Hidden Directory (C:\Windows\Installer), for later. When the associated Program is Uninstalled later, it will be this MSI File Copy that will be used to perform the Uninstallation & Cleanup. This is why it is extremely important that you do not delete the Files/Directories that exist in this particular folder.<br />
+After Installing a Program via MSI or EXE (that Extracts an MSI Package), a Copy of that MSI File will be stored in a Hidden Directory (C:\Windows\Installer), for later. When the associated Program is Uninstalled later, it will be this MSI File Copy that will be used to perform the Uninstallation & Cleanup.<br /> 
+
+It should be Noted that it is extremely important that you do NOT delete the Files/Subfolders that exist in this particular Directory. However you can utilize these MSI Files Uninstall the associated Program and/or to perform various tasks (i.e. as a Detection Method for Scripts, Intune/SCCM, etc.).<br />
 
 As you can see in the Screenshot below, this MSI File Copy will typiclly have a Generic Name consisting of Hexidecimal Characters, which can make it difficult to find unless you have certain columns visible (i.e. Authors, Comments, Participants, Subject, Title, etc.) in the Explorer Window.<br /><br />
 
