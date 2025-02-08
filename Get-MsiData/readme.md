@@ -6,7 +6,7 @@ As you can see in the Screenshot below, this MSI File Copy will typiclly have a 
 
 <img src="https://i.imgur.com/StGujBB.png">
 
-To get around the aforementioned obstacles, I wrote this Script, which contains Three Functions.<br /><br />
+To get around the aforementioned obstacles, I wrote this Script, which contains Three Functions.<br />
 
 - <b>Get-MsiFileMetaData</b><br />
      Can be used to Find the Correct MSI File, using the Program Name or just part of it.<br />
