@@ -1,6 +1,6 @@
 <h1>Get-MsiData.ps1</h1><br />
 
-After Installing a Program via MSI or EXE (that Extracts an MSI Package), a Copy of that MSI File will be stored in a Hidden Directory (C:\Windows\Installer), for later. When the associated Program is Uninstalled later, it will be this MSI File Copy that will be used to perform the Uninstallation & Cleanup. This is why it is extremely important that you do NOT delete the Files/Subfolders that exist in this particular Directory. However, you can utilize these MSI Files Uninstall the associated Program and/or to perform various tasks (i.e. as a Detection Method for Scripts, Intune/SCCM, etc.).<br />
+After Installing a Program via MSI or EXE (that Extracts an MSI Package), a Copy of that MSI File will be stored in a Hidden Directory (**C:\Windows\Installer**), for later. When the associated Program is Uninstalled later, it will be this MSI File Copy that will be used to perform the Uninstallation & Cleanup. This is why it is extremely important that you do NOT delete the Files/Subfolders that exist in this particular Directory. However, you can utilize these MSI Files Uninstall the associated Program and/or to perform various tasks (i.e. as a Detection Method for Scripts, Intune/SCCM, etc.).<br />
 
 As you can see in the Screenshot below, this MSI File Copy will typiclly have a Generic Name consisting of Hexidecimal Characters, which can make it difficult to find unless you have certain columns visible (i.e. Authors, Comments, Participants, Subject, Title, etc.) in the Explorer Window.<br /><br />
 
@@ -46,12 +46,12 @@ To get around the aforementioned obstacles, I wrote this Script, which contains 
 
 <b><ins>Opening the MSI Database & Viewing the Tables/Properties in ORCA</ins></b>:<br />
 
-To Open/View the MSI Database, you can Download & Install the ORCA Program, through the following Link.<br />
+To Open/View the MSI Database, you can Download & Install the **ORCA** Program, through the following Link.<br />
 <a href="https://www.technipages.com/downloads/OrcaMSI.zip">https://www.technipages.com/downloads/OrcaMSI.zip</a><br />
 
 The "**ProductName**" and "**ProductVersion**" Properties (along with many others) can be found under the "**Property**" Table.<br />
 
-**NOTE**: You can only have one instance of the MSI Database Open, at one time. If you try to run the "Get-MsiProductName" and/or "Get-MsiProductVersion" PowerShell Functions, while the MSI Database is Open in Orca, PowerShell will display an Error, until you Close the Orca Instance.<br /><br />
+* *<b>NOTE</b>: You can only have one instance of the MSI Database Open, at one time. If you try to run the "Get-MsiProductName" and/or "Get-MsiProductVersion" PowerShell Functions, while the MSI Database is Open in Orca, PowerShell will display an Error, until you Close the Orca Instance.* *<br /><br />
 
 **Orca > "Property" Table > "ProductName" Property:**<br />
 <img src="https://i.imgur.com/TWphmc3.png"><br />
