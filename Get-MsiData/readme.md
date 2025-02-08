@@ -1,10 +1,19 @@
 <h1>Get-MsiData.ps1</h1><br />
 
-After Installing a Program via MSI or EXE (that Extracts an MSI Package), a Copy of that MSI File will be stored in a Hidden Directory (C:\Windows\Installer), for later. When the associated Program is Uninstalled later, it will be this MSI File Copy that will be used to perform the Uninstallation & Cleanup. This is why it is extremely important that you do not delete the Files or Directories that exist in this particular folder.<br />
+After Installing a Program via MSI or EXE (that Extracts an MSI Package), a Copy of that MSI File will be stored in a Hidden Directory (C:\Windows\Installer), for later. When the associated Program is Uninstalled later, it will be this MSI File Copy that will be used to perform the Uninstallation & Cleanup. This is why it is extremely important that you do not delete the Files/Directories that exist in this particular folder.<br />
 
 As you can see in the Screenshot below, this MSI File Copy will typiclly have a Generic Name consisting of Hexidecimal Characters, which can make it difficult to find unless you have certain columns visible (i.e. Authors, Comments, Participants, Subject, Title, etc.) in the Explorer Window.<br /><br />
 
 <img src="https://i.imgur.com/StGujBB.png">
+
+To get around the aforementioned obstacles, I wrote this Script, which contains Three Functions.<br /><br />
+
+- <b>Get-MsiFileMetaData</b><br />
+     Can be used to Find the Correct MSI File, using the Program Name or just part of it.<br />
+- <b>Get-MsiProductName</b><br />
+     Pulls the Program Product Name from the internal MSI Database within the MSI File.<br />
+- <b>Get-MsiProductVersion</b><br />
+     Pulls the Product Version Number from the internal MSI Database within the MSI File.<br />
 
 <b><ins>Importing Function - Method 1</ins></b>:<br />
 
