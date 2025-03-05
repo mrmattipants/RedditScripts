@@ -1,0 +1,1 @@
+Install-MsStorePackages.ps1
