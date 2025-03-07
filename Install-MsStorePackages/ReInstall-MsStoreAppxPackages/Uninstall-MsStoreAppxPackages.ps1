@@ -1,6 +1,6 @@
 ﻿$ErrorActionPreference = 'SilentlyContinue'
 
-$FamilyPackageNames = $("Microsoft.Windows.Photos_8wekyb3d8bbwe","Microsoft.WindowsCalculator_8wekyb3d8bbwe")
+$FamilyPackageNames = $("Microsoft.Windows.Photos_8wekyb3d8bbwe","Microsoft.WindowsCalculator_8wekyb3d8bbwe","Microsoft.XboxIdentityProvider_8wekyb3d8bbwe","Microsoft.DesktopAppInstaller_8wekyb3d8bbwe","Microsoft.StorePurchaseApp_8wekyb3d8bbwe","Microsoft.WindowsStore_8wekyb3d8bbwe")
 
 $FamilyPackageNames | Foreach-Object {
 
