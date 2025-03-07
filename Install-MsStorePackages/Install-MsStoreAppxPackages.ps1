@@ -1,4 +1,5 @@
 ﻿$ErrorActionPreference = 'SilentlyContinue'
+$ProgressPreference = 'SilentlyContinue'
 
 function Download-AppxPackage {
 [CmdletBinding()]
