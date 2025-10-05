@@ -5,7 +5,7 @@
 Profile_Extended-Computer-Policy_File-Browser.pcmpr<br />
 <br />
 <b>Instructions</b>:<br />
-Open "<b>Administration > Configuration > Profiles</b>", Click the "<b>Import Profile</b>" Button, in the upper-right corner.<br />
+Un-Zip Package, Open "<b>Administration > Configuration > Profiles</b>" in your Pulseway Web UI, the Click the "<b>Import Profile</b>" Button, in the upper-right corner, then select and open the aforementioned file.<br />
 <br />
 <b><u>Pulseway - Policy - Extended Computer Policy (Device Configuration)</u></b>:<br />
 <br />
@@ -13,5 +13,5 @@ Open "<b>Administration > Configuration > Profiles</b>", Click the "<b>Import Pr
 Policy_Extended-Computer-Policy_Device-Configuration.pcmpol<br />
 <br />
 <b>Instructions</b>:<br />
-Open "<b>Administration > Configuration > Policies</b>", Click the "<b>Import Policy</b>" Button, in the upper-right cornder.<br />
+Open "<b>Administration > Configuration > Policies</b>", Click the "<b>Import Policy</b>" Button, in the upper-right cornder, then select and open the aforementioned file.<br />
 <br />
