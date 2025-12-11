@@ -17,7 +17,23 @@ $ProjectState = "Running"
 Log-ProjectEvent -JsonFilePath $ProjectLog -ProjectName $ProjectName -StartTime $ProjectStart -EndTime $ProjectEnd -CurrentState $ProjectState
 ```
 
-Output Example (JSON File Contents):
+Output Example (JSON File Contents) - First Entry:
+
+```
+{
+  "Entries": [
+    {
+      "ProjectName": "Project 01",
+      "StartTime": "12/11/2025 12:40:55",
+      "EndTime": "12/11/2025 12:45:55",
+      "ElapsedTime": "00:05:00",
+      "CurrentState": "Running"
+    }
+  ]
+}
+``` 
+
+Output Example (JSON File Contents) - Multiple Entries:
 
 ```
 {
