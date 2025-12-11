@@ -5,7 +5,7 @@ Import Script/Function into PowerShell:
 Import-Module -name "C:\Path\To\Script\Log-ProjectEvent.ps1"
 ```
 
-Usage Example:
+Function Usage Example:
 
 ```
 $ProjectLog = "$([System.Environment]::GetFolderPath('Desktop'))\Project-Event-Log_$(([DateTime]::today).ToString("yyyyddMM")).json"
