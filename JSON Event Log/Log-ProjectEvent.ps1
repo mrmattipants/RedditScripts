@@ -11,9 +11,7 @@ Function Log-ProjectEvent {
     If ($StartTime -and $EndTime) {
        $ElapseTimeTicks = $EndTime.Ticks - $StartTime.Ticks
        $ElapseTimeSpan = New-Object TimeSpan($ElapseTimeTicks)
-
        $ElapsedTime = $ElapseTimeSpan.ToString("hh\:mm\:ss")
-
    }
 
    if (-not (Test-Path $JsonFilePath)) {
@@ -30,7 +28,6 @@ Function Log-ProjectEvent {
         }
  
         $ProjectJson = $ProjectData | ConvertTo-Json
-
         $ProjectJson | Set-Content -Path $JsonFilePath
 
         Return $ProjectJson
@@ -46,10 +43,11 @@ Function Log-ProjectEvent {
         }
 
         $JsonFileData = Get-Content -Path $JsonFilePath -Raw | ConvertFrom-Json
-
         $JsonFileData.Entries += $ProjectData
+        $JsonOutput = $JsonFileData | ConvertTo-Json
+        $JsonOutput | Set-Content -Path $JsonFilePath
 
-        $JsonFileData | ConvertTo-Json | Set-Content -Path $JsonFilePath 
+        Return $JsonOutput 
 
     }
 
