@@ -1,0 +1,4 @@
+https://[*.]calltrackingmetrics.com/*
+http://[*.]calltrackingmetrics.com/*
+https://tenant.sharepoint.com/*
+https://mytenant.sharepoint.com/*
