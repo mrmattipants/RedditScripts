@@ -4,9 +4,7 @@
 
 This PowerShell Script simpy retrieves the ScreenConnect Product Name, Version Number and Launch Parameters from ScreenConnect MSI Installation Packages/Files.
 
-Simply <a href="https://github.com/mrmattipants/RedditScripts/raw/refs/heads/main/ScreenConnect/Query-ScreenConnectMsiFile/Query-ScreenConnectMsiFile.zip">Download</a> and Extract the ZIP Folder. 
-
-For Instructions, please refer to the following Link.
+Simply <a href="https://github.com/mrmattipants/RedditScripts/raw/refs/heads/main/ScreenConnect/Query-ScreenConnectMsiFile/Query-ScreenConnectMsiFile.zip">Download</a> and Extract the ZIP Folder. For Instructions, please refer to the following Link.
 
 <b>Instructions - Query-ScreenConnectMsiFile</b>:<br />
 <a href="https://imgur.com/a/N8ysd1a">https://imgur.com/a/N8ysd1a</a><br />
