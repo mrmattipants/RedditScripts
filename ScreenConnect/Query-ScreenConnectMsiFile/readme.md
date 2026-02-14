@@ -4,5 +4,5 @@ This PowerShell Script will retrieve the ScreenConnect Product Name, Version Num
 
 Simply Download and Extract the ZIP Folder. Please refer to the following Link, for Instructions.
 
-<b>Instructions - Query-ScreenConnectMsiFile</b>: 
+<b>Instructions - Query-ScreenConnectMsiFile</b>:<br />
 <a href="https://imgur.com/a/N8ysd1a">https://imgur.com/a/N8ysd1a</a><br />
